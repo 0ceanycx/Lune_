@@ -13,7 +13,7 @@ import { playerInteractions } from "./src/player.js"
 // Logging our Client with the bot token:
 client.login(config.token)
 
-client.once("ready", () => console.log("RTXsON ready to go!"))
+client.once("ready", () => console.log("Lune ready to go!"))
 
 // Messages/Slash Commands:
 client.on("messageCreate", (message) => clientMessages(message))
